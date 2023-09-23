@@ -5,8 +5,6 @@ Welcome to my personal portfolio website! This website showcases my skills, proj
 ## Demo
 You can check out my portfolio website live [Here](https://alpharsh.github.io/OIBSIP-L1-Task2/).
 
-![Portfolio Website Screenshot](screenshot.png)
-
 ## Features
 - **Home:** A brief introduction about me.
 - **Projects:** Showcase of my web development projects.
