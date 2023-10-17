@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This website showcases my skills, projects, and experiences in web development. It's built using HTML, CSS, and JavaScript.
 
 ## Demo
-You can check out my portfolio website live [Here](https://alpharsh.github.io/OIBSIP-L1-Task2/).
+You can check out my portfolio website live [Here](https://alpharsh.github.io/portfolio).
 
 ## Features
 - **Home:** A brief introduction about me.
