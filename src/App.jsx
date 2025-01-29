@@ -1,9 +1,23 @@
-import React from 'react'
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Services from "./components/Servicess/Services";
+import Skills from "./components/Skills/Skills";
 
-function App() {
+const App = () => {
   return (
-    <div className='bg-amber-300'>App</div>
-  )
-}
+    <>
+      <Navbar />
+      <Header />
+      <About />
+      <Services />
+      <Skills />
+      <Contact />
+      <Footer />
+    </>
+  );
+};
 
-export default App
+export default App;
