@@ -1,22 +1,8 @@
-# Personal Portfolio Website
+# React + Vite
 
-Welcome to my personal portfolio website! This website showcases my skills, projects, and experiences in web development. It's built using HTML, CSS, and JavaScript.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Demo
-You can check out my portfolio website live [Here](https://alpharsh.github.io/portfolio).
+Currently, two official plugins are available:
 
-## Features
-- **Home:** A brief introduction about me.
-- **Projects:** Showcase of my web development projects.
-- **Skills:** List of my technical skills.
-- **Contact:** A way to get in touch with me.
-- Responsive design for various screen sizes
-- Project showcase with descriptions and links
-- About Me section with a brief introduction
-- Contact information and social media links
-- Interactive animations and smooth scrolling
-
-## Technologies Used
-- HTML5: Structure of the website.
-- CSS3: Styling and layout.
-- JavaScript: Interactive elements and animations.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
