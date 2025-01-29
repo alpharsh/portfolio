@@ -15,9 +15,10 @@ function Codeblock({ language, code }) {
         language={language}
         style={a11yLight}
         customStyle={{
-          background: "rgba(--color-primary-rgb), 0.03",
+          background: "rgba(var(--color-primary-rgb), 0.03)",
           color: "skyblue",
           padding: "20px",
+          paddingTop: "0",
           fontSize: "14px",
         }}
         wrapLongLines={true}

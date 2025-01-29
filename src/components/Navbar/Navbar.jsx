@@ -13,11 +13,14 @@ function Navbar() {
     <nav className="card flex__center navbar">
       {showSidebar && (
         <div
-          className="aside__overlay"
+          className="fixed top-0 left-0 h-full min-h-screen w-full bg-black/50 bg-opacity-50 z-[201] select-none cursor-pointer"
           onClick={() => setShowSidebar(!showSidebar)}
         ></div>
       )}
-      <div className="flex__center logo" onClick={() => scroll.scrollToTop()}>
+      <div
+        className="flex__center cursor-pointer"
+        onClick={() => scroll.scrollToTop()}
+      >
         <Logo />
       </div>
       <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
@@ -46,12 +49,9 @@ function Navbar() {
           ))}
         </div>
       </aside>
-      <div className="flex__center buttons__wrapper">
-        <Link to="contact" className="btn flex__center hire__btn">
-          Hire Me
-          <div className="flex__container icon">
-            <FaArrowUpRightFromSquare />
-          </div>
+      <div className="flex__center gap-[20px]">
+        <Link to="contact" className="btn flex__center overflow-hidden relative pr-[3.3rem] rounded-[0.7rem] shadow-[0_0_1.6rem_-0.6rem_var(--color-ui-2)]">
+          Resume
         </Link>
 
         <FaBarsStaggered
