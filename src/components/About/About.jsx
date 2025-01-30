@@ -28,7 +28,7 @@ function About() {
         </div>
         <div className="column right-column">
           <div className="shine">About Me</div>
-          <h1 className="title">
+          <h1 className="title text-2xl">
             I am <span className="color__primary">Harsh Tripathi</span>
           </h1>
           <div className="text__muted description">
