@@ -5,17 +5,6 @@
 }
 
 /* Responsiveness */
-@media (max-width: 600px) {
-  #skill .skill__container {
-    gap: 1rem;
-  }
-
-  #skill .skill__container .skill__card {
-    width: 100%;
-    padding: 2rem 1rem;
-  }
-}
-
 @media (max-width: 1024px) {
   #skill .skill__container {
     grid-template-columns: 100%;
@@ -29,5 +18,16 @@
 
   #skill .skill__content {
     padding: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #skill .skill__container {
+    gap: 1rem;
+  }
+
+  #skill .skill__container .skill__card {
+    width: 100%;
+    padding: 2rem 1rem;
   }
 }
