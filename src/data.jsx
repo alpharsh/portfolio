@@ -273,8 +273,8 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "alpharsh1@gmail.com",
+    link: "mailto:alpharsh1@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
@@ -289,8 +289,8 @@ export const contactInfo = [
   },
   {
     name: "WhatsApp",
-    value: "+2348149121918",
-    link: "https://api.whatsapp.com/send?phone=+2348149121918",
+    value: "+917754814055",
+    link: "https://api.whatsapp.com/send?phone=+917754814055",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
@@ -315,7 +315,7 @@ export const socialHandles = [
   {
     name: "Youtube",
     icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "https://www.youtube.com/alpharsh",
   },
 ];
 
