@@ -110,16 +110,45 @@ img {
 }
 
 .btn {
-  @apply py-4 px-6 rounded-[51px] text-white text-[14px] font-medium bg-[#212121] text-center cursor-pointer;
+  @apply py-[14px] px-[25px] rounded-[51px] text-white text-[14px] font-medium bg-[#212121] text-center cursor-pointer;
 }
 
 .btn__shine {
-  @apply text-transparent bg-gradient-to-r from-[#9f9f9f] to-[#868686] font-semibold text-xl;
-  animation: shine 3s infinite linear;
+  color: rgb(159, 159, 159);
+  -webkit-text-fill-color: transparent;
+  text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  background: linear-gradient(
+      to right,
+      rgb(159, 159, 159) 0px,
+      rgb(255, 255, 255),
+      rgb(134, 134, 134) 20%
+    )
+    0px center text;
+  background-position: 0px center;
+  animation: 3s linear 0s infinite normal none running shine;
 }
 
 .shine {
-  @apply text-4xl font-extrabold text-transparent bg-gradient-to-l from-transparent via-white to-transparent bg-clip-text;
+  font-size: 2em;
+  font-weight: 900;
+  color: #ffffff4d;
+  background-image: linear-gradient(
+    -40deg,
+    transparent 0%,
+    transparent 40%,
+    #fff 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 50px;
   animation: zezzz 5s infinite;
 }
 

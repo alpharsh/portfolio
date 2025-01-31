@@ -18,7 +18,7 @@ function Navbar() {
         ></div>
       )}
       <div
-        className="flex__center cursor-pointer"
+        className="flex__center logo cursor-pointer"
         onClick={() => scroll.scrollToTop()}
       >
         <Logo />
@@ -26,7 +26,7 @@ function Navbar() {
       <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
         <div className="flex sidebar__top">
           <span
-            className="icon__container close-btn"
+            className="icon__container close__btn"
             onClick={() => setShowSidebar(!showSidebar)}
           >
             <FaTimes />
@@ -50,7 +50,10 @@ function Navbar() {
         </div>
       </aside>
       <div className="flex__center gap-[20px]">
-        <Link to="contact" className="btn flex__center overflow-hidden relative pr-[3.3rem] rounded-[0.7rem] shadow-[0_0_1.6rem_-0.6rem_var(--color-ui-2)]">
+        <Link
+          to="contact"
+          className="btn flex__center overflow-hidden relative pr-[3.3rem] rounded-[0.7rem] shadow-[0_0_1.6rem_-0.6rem_var(--color-ui-2)]"
+        >
           Resume
         </Link>
 
