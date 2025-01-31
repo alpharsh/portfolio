@@ -281,7 +281,7 @@ export const contactInfo = [
   },
   {
     name: "Messenger",
-    value: "Emmanuel Eze",
+    value: "Harsh Tripathi",
     link: "http://m.me/profile?id=profile-i",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
