@@ -72,15 +72,11 @@ export const services = [
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "R D Memorial Hospital",
     image: project1,
-    category: "UI/UX",
-    description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                     learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                     and intuitive navigation, our design empowers educators and students alike. Experience 
-                     innovation at its finest as we pave the way for a smarter, more efficient educational 
-                     journey.`,
-    demoLink: "https://google.com/",
+    category: "Web-App",
+    description: `A modern and responsive hospital website built using React. This project showcases essential features like appointment booking, services, doctor profiles, and more. Delivered a responsive solution with 100% client satisfaction, marking the successful completion of the first freelancing project.`,
+    demoLink: "https://rdmhospital.in/",
     stacks: [
       {
         name: "XD",
@@ -89,15 +85,11 @@ export const projects = [
     ],
   },
   {
-    title: "E-Commerce Application",
+    title: "Technovators Club",
     image: project2,
     category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    description: `Technovators Society is our college's community dedicated to organizing technical events like hackathons, talks, and workshops.`,
+    demoLink: "https://technovator.in/",
     stacks: [
       {
         name: "ReactJs",
@@ -118,15 +110,11 @@ export const projects = [
     ],
   },
   {
-    title: "Robotic Engineering Web Application",
+    title: "Shopify",
     image: project3,
     category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
+    description: `A Full-stack eCommerce platform using MERN with secure authentication, cart management, and PayPal integration for seamless transactions.`,
+    demoLink: "https://ecommapp-1.onrender.com/",
     stacks: [
       {
         name: "ReactJs",
@@ -143,12 +131,11 @@ export const projects = [
     ],
   },
   {
-    title: "Project Management application",
+    title: "SmallStart.AI",
     image: project4,
     category: "Apps",
-    description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                     Elevate your project management experience and achieve success with ease.`,
-    demoLink: "https://google.com/",
+    description: `Designed and developed the official website for a tech and social media company offering app development, web solutions, and digital marketing services.`,
+    demoLink: "https://smallstartai.com/",
     stacks: [
       {
         name: "React Native",
