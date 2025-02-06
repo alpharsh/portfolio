@@ -1,6 +1,7 @@
 import { FaPaintBrush } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si";
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { FaGoogle } from "react-icons/fa";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaCodeCompare } from "react-icons/fa6";
 import { GiIdea } from "react-icons/gi";
 import { MdOutlineEmail } from "react-icons/md";
@@ -298,24 +299,24 @@ export const contactInfo = [
 ];
 export const socialHandles = [
   {
-    name: "Fiverr",
-    icon: <SiFiverr />,
-    link: "",
+    name: "Dev",
+    icon: <FaGoogle />,
+    link: "https://g.dev/alpharsh",
   },
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/alpharsh",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://www.linkedin.com/in/alpharsh",
   },
   {
-    name: "Youtube",
-    icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/alpharsh",
+    name: "X",
+    icon: <FaXTwitter />,
+    link: "https://x.com/alpharsh",
   },
 ];
 
