@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./hero.css";
 import HeaderTitle from "../../ui/HeaderTitle";
 import Codeblock from "../../ui/CodeBlock/Codeblock";
 import { profile1, profile2 } from "../../assets";
@@ -11,7 +11,7 @@ const code = `
 const developer = {
   firstName: "Harsh",
   lastName: "Tripathi",
-  aka: "alpharsh",
+  address: "Prayagraj, India",
   hobby: repeat = () => {
   //eat()
   //sleep()
@@ -21,7 +21,7 @@ const developer = {
 }
 `;
 
-function Header() {
+function Hero() {
   return (
     <header id="header">
       <BreathCircle />
@@ -51,4 +51,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Hero;

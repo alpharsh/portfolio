@@ -178,7 +178,7 @@ img {
 
 /* Section Wrapper */
 .section__wrapper {
-  @apply max-w-screen-xl mx-auto px-5 py-20;
+  @apply max-w-[1190px] mx-auto px-5 py-20;
 }
 
 /* Clamp Text */

@@ -1,7 +1,7 @@
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import Hero from "./components/HeroPage/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Services from "./components/Servicess/Services";
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Header />
+      <Hero />
       <About />
       <Services />
       <Skills />
