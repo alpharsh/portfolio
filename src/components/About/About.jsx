@@ -7,7 +7,7 @@ import CardUi from "../../assets/CardUi";
 function About() {
   return (
     <section id="about" className="">
-      <div className="!pt-9 !pb-6 card section__wrapper">
+      <div className="!pt-1 !md:pt-9 !pb-0 !md:pb-6 !gap-10 card section__wrapper">
         <Hole />
         <div className="column left-column">
           <div className="skills__container">

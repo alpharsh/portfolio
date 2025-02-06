@@ -94,8 +94,8 @@
         gap: 20px;
     }
 
-    #about .left-column {
-        padding-top: 120px;
+    #about .skills__container {
+      margin-top: 3rem;
     }
 
     #about .right-column {
