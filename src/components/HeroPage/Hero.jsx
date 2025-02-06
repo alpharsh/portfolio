@@ -24,7 +24,7 @@ const developer = {
 function Hero() {
   return (
     <header id="header">
-      {/* <BreathCircle /> */}
+      <BreathCircle />
       <div className="section__wrapper">
         <div className="grid upper">
           <div className="column">
