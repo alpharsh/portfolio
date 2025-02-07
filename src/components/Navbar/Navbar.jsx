@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import Logo from "../../assets/Logo";
 import { FaTimes } from "react-icons/fa";
 import { menu } from "../../data";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { FaArrowUpRightFromSquare, FaBarsStaggered } from "react-icons/fa6";
+import { FaBarsStaggered } from "react-icons/fa6";
 
 function Navbar() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -21,7 +20,7 @@ function Navbar() {
         className="flex__center logo cursor-pointer"
         onClick={() => scroll.scrollToTop()}
       >
-        <Logo />
+        <img src="logo.png" className="w-9 md:w-11 h-9 md:h-11" alt="logo" />
       </div>
       <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
         <div className="flex sidebar__top">
