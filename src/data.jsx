@@ -75,7 +75,7 @@ export const projects = [
     title: "R D Memorial Hospital",
     image: project1,
     category: "Web-App",
-    description: `A modern and responsive hospital website built using React. This project showcases essential features like appointment booking, services, doctor profiles, and more. Delivered a responsive solution with 100% client satisfaction, marking the successful completion of the first freelancing project.`,
+    description: `A modern and responsive hospital website built using React. Delivered a responsive solution with 100% client satisfaction.`,
     demoLink: "https://rdmhospital.in/",
     stacks: [
       {
@@ -113,7 +113,7 @@ export const projects = [
     title: "Shopify",
     image: project3,
     category: "Web",
-    description: `A Full-stack eCommerce platform using MERN with secure authentication, cart management, and PayPal integration for seamless transactions.`,
+    description: `A Full-stack eCommerce platform using MERN with secure authentication and PayPal integration for seamless transactions.`,
     demoLink: "https://ecommapp-1.onrender.com/",
     stacks: [
       {
@@ -155,7 +155,7 @@ export const projects = [
     title: "Mobile bank - App Design",
     image: project5,
     category: "UI/UX",
-    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+    description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -169,11 +169,7 @@ export const projects = [
     image: project6,
     category: "Apps",
     description: `Elevate engagement and knowledge retention with our Quiz App 
-                    Development project. Seamlessly crafted for interactive learning 
-                    experiences, our app offers customizable quizzes, real-time feedback, 
-                    and captivating visuals. Empower users to test their knowledge anytime,
-                     anywhere, fostering a dynamic learning environment tailored to their 
-                     needs.`,
+                    Development project. Seamlessly crafted for interactive learning, offers customizable quizzes.`,
     demoLink: "https://google.com/",
     stacks: [
       {
@@ -277,8 +273,8 @@ export const contactInfo = [
   },
   {
     name: "WhatsApp",
-    value: "+917754814055",
-    link: "https://api.whatsapp.com/send?phone=+917754814055",
+    value: "+9112345678",
+    link: "https://api.whatsapp.com/send?phone=+9112345678",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
