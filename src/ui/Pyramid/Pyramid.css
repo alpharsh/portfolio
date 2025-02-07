@@ -19,6 +19,7 @@
 @media (max-width: 768px) {
   .pyramid .sides__container {
     animation: none; /* Stops rotation */
+    display: none;
   }
 }
 

@@ -29,8 +29,11 @@ import {
   react,
   reactnative,
   emailicon,
-  messengericon,
   whatsappicon,
+  mongodb,
+  nodejs,
+  expressjs,
+  linkedin,
 } from "./assets";
 
 export const menu = [
@@ -79,8 +82,20 @@ export const projects = [
     demoLink: "https://rdmhospital.in/",
     stacks: [
       {
-        name: "XD",
-        logo: xd,
+        name: "ReactJs",
+        logo: react,
+      },
+      {
+        name: "Figma",
+        logo: figma,
+      },
+      {
+        name: "Tailwind",
+        logo: tailwind,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
       },
     ],
   },
@@ -96,12 +111,12 @@ export const projects = [
         logo: react,
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Figma",
+        logo: figma,
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "Tailwind",
+        logo: tailwind,
       },
       {
         name: "JavaScript",
@@ -117,12 +132,20 @@ export const projects = [
     demoLink: "https://ecommapp-1.onrender.com/",
     stacks: [
       {
+        name: "MongoDB",
+        logo: mongodb,
+      },
+      {
+        name: "ExpressJs",
+        logo: expressjs,
+      },
+      {
         name: "ReactJs",
         logo: react,
       },
       {
-        name: "Figma",
-        logo: figma,
+        name: "NodeJs",
+        logo: nodejs,
       },
       {
         name: "Tailwind",
@@ -138,16 +161,20 @@ export const projects = [
     demoLink: "https://smallstartai.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "ReactJs",
+        logo: react,
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Figma",
+        logo: figma,
       },
       {
-        name: "CSS",
-        logo: css,
+        name: "Tailwind",
+        logo: tailwind,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
       },
     ],
   },
@@ -261,20 +288,20 @@ export const contactInfo = [
     link: "mailto:alpharsh1@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
-    color: "rgb(56,115,205)",
+    color: "rgb(234, 67, 53)",
   },
   {
-    name: "Messenger",
+    name: "LinkedIn",
     value: "Harsh Tripathi",
-    link: "http://m.me/profile?id=profile-i",
-    icon: messengericon,
+    link: "https://www.linkedin.com/in/alpharsh/",
+    icon: linkedin,
     btnIcon: <RiMessengerLine />,
-    color: "rgb(139,74,251)",
+    color: "rgb(0, 119, 181)",
   },
   {
     name: "WhatsApp",
-    value: "+9112345678",
-    link: "https://api.whatsapp.com/send?phone=+9112345678",
+    value: "+911111111111",
+    link: "https://api.whatsapp.com/send?phone=+911111111111",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: "rgb(38,234,112)",
