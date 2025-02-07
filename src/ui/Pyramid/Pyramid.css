@@ -15,6 +15,13 @@
   animation: spin 12s linear infinite;
 }
 
+/* Disable animation on small screens */
+@media (max-width: 768px) {
+  .pyramid .sides__container {
+    animation: none; /* Stops rotation */
+  }
+}
+
 @keyframes spin {
   100% {
     transform: rotateY(360deg);
