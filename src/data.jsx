@@ -334,25 +334,25 @@ export const socialHandles = [
 export const testimonials = [
   {
     avatar: profile3,
-    name: "Samuel Eze",
+    name: "Ananya Singh",
     role: "Software Engineer",
     review: `Harsh Tripathi is an exceptional developer with deep expertise in React and backend technologies. His problem-solving skills and structured approach make him a valuable asset to any team.`,
   },
   {
     avatar: profile4,
-    name: "Emmanuel Joseph",
+    name: "Finn Smith",
     role: "Frontend Developer",
     review: `Collaborating with Harsh on open-source projects was a great experience. His clean code, mentorship, and willingness to help others make him stand out in the tech community.`,
   },
   {
     avatar: profile5,
-    name: "Gloria Chiwendu",
+    name: "Rachel Johnson",
     role: "Full-stack Developer",
     review: `Harsh is a skilled full-stack developer who excels in teamwork and leadership. His ability to communicate complex ideas clearly and efficiently is impressive.`,
   },
   {
     avatar: profile6,
-    name: "Precious Stone",
+    name: "Ketan Mishra",
     role: "UI/UX Designer",
     review: `Harsh's innovative approach and passion for technology make him a standout developer. He consistently delivers high-quality solutions with fresh ideas and creativity.`,
   },

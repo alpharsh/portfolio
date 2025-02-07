@@ -27,7 +27,7 @@ function Testimonials() {
         >
           {testimonials.map(({ avatar, name, review }, index) => (
             <SwiperSlide className="card text-center clip-polygon" key={index}>
-              <div className="avatar">
+              <div className="avatar rounded-3xl">
                 <img src={avatar} alt="" />
               </div>
               <h3 className="name">{name}</h3>
