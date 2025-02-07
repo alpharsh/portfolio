@@ -9,7 +9,7 @@ function About() {
     <section id="about" className="">
       <div className="!pt-1 !md:pt-9 !pb-0 !md:pb-6 !gap-10 card section__wrapper">
         <Hole />
-        <div className="column left-column hidden md:block">
+        <div className="column left-column">
           <div className="skills__container">
             {skills.map((skill, index) => (
               <div className="skill__group" key={index}>

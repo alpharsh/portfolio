@@ -15,8 +15,6 @@ export { default as project6 } from "./project-6.jpg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";
-export { default as sketch } from "./icons/sketch.svg";
-export { default as xd } from "./icons/xd.svg";
 export { default as css } from "./icons/css.svg";
 export { default as html } from "./icons/html.svg";
 export { default as javascript } from "./icons/javascript.svg";
@@ -30,3 +28,6 @@ export { default as whatsappicon } from "./icons/whatsapp.png";
 export { default as mongodb } from "./icons/mongodb.svg";
 export { default as nodejs } from "./icons/nodejs.svg";
 export { default as expressjs } from "./icons/expressjs.svg";
+export { default as flutter } from "./icons/flutter.svg";
+export { default as git } from "./icons/git.svg";
+export { default as github } from "./icons/github.svg";

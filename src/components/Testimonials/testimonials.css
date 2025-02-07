@@ -1,19 +1,9 @@
-#testimonials .testimonial {
-  text-align: center;
-  padding: 60px 40px;
-  border-radius: var(--border-radius-3);
-  clip-path: var(--polygon);
-}
-
 #testimonials .avatar {
-  width: 10rem;
-  height: 10rem;
   overflow: hidden;
   border-radius: var(--border-radius-5);
   margin: 0 auto 1rem;
-  margin-top: 20px;
-  width: 170px;
-  height: 170px;
+  width: 120px;
+  height: 120px;
   box-shadow: 5px 10px 20px #00000054;
 }
 

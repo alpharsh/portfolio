@@ -19,8 +19,6 @@ import {
   profile5,
   profile6,
   figma,
-  sketch,
-  xd,
   css,
   html,
   javascript,
@@ -34,6 +32,9 @@ import {
   nodejs,
   expressjs,
   linkedin,
+  flutter,
+  git,
+  github,
 } from "./assets";
 
 export const menu = [
@@ -208,8 +209,8 @@ export const projects = [
         logo: figma,
       },
       {
-        name: "XD",
-        logo: xd,
+        name: "Flutter",
+        logo: flutter,
       },
       {
         name: "Bootstrap",
@@ -229,14 +230,14 @@ export const skills = [
         logo: figma,
       },
       {
-        skill: "Sketch",
+        skill: "Git",
         level: "Intermediate",
-        logo: sketch,
+        logo: git,
       },
       {
-        skill: "XD",
+        skill: "GitHub",
         level: "Intermediate",
-        logo: xd,
+        logo: github,
       },
     ],
   },
@@ -274,9 +275,9 @@ export const skills = [
         logo: react,
       },
       {
-        skill: "React Native",
+        skill: "Flutter",
         level: "Experienced",
-        logo: reactnative,
+        logo: flutter,
       },
     ],
   },
@@ -334,29 +335,25 @@ export const testimonials = [
   {
     avatar: profile3,
     name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    role: "Software Engineer",
+    review: `Harsh Tripathi is an exceptional developer with deep expertise in React and backend technologies. His problem-solving skills and structured approach make him a valuable asset to any team.`,
   },
   {
     avatar: profile4,
     name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    role: "Frontend Developer",
+    review: `Collaborating with Harsh on open-source projects was a great experience. His clean code, mentorship, and willingness to help others make him stand out in the tech community.`,
   },
   {
     avatar: profile5,
     name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    role: "Full-stack Developer",
+    review: `Harsh is a skilled full-stack developer who excels in teamwork and leadership. His ability to communicate complex ideas clearly and efficiently is impressive.`,
   },
   {
     avatar: profile6,
     name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
+    role: "UI/UX Designer",
+    review: `Harsh's innovative approach and passion for technology make him a standout developer. He consistently delivers high-quality solutions with fresh ideas and creativity.`,
   },
 ];
