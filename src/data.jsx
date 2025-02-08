@@ -64,13 +64,14 @@ export const services = [
     for speed, scalability, and accessibility, delivering a robust online presence.`,
   },
   {
-    title: "Content Creation",
+    title: "App Development",
     icon: <GiIdea />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",
-    description: `Producing compelling digital content that resonates with your audience. From blogs 
-                  and technical documentation to engaging website copy, I ensure your brand's message 
-                  is clear, impactful, and aligned with your business goals.`,
+    description: `Transform your ideas into flexible, scalable, and user-friendly apps.
+                Leverage modern frameworks like React Native and Flutter to deliver
+                high-performance solutions that blend functionality with a seamless
+                user experience across multiple platforms.`,
   },
 ];
 
