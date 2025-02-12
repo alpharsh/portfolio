@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
+@custom-variant hover (&:hover);
 
 :root {
   --color-primary: #2563eb;
@@ -110,7 +111,7 @@ img {
 }
 
 .btn {
-  @apply py-[14px] px-[25px] rounded-[51px] text-white text-[14px] font-medium bg-[#212121] text-center cursor-pointer;
+  @apply py-[14px] px-[25px] rounded-[30px] text-white text-[14px] font-medium bg-[#212121] text-center cursor-pointer;
 }
 
 .btn__shine {

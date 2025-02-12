@@ -51,9 +51,11 @@ function Navbar() {
       <div className="flex__center gap-[20px]">
         <Link
           to="contact"
-          className="btn flex__center overflow-hidden relative pr-[3.3rem] rounded-[0.7rem] shadow-[0_0_1.6rem_-0.6rem_var(--color-ui-2)]"
+          className="group btn flex__center overflow-hidden hover:!text-blue-100 relative pr-[3.3rem] rounded-[0.7rem] "
         >
           Resume
+          <span className="absolute inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px"></span>
+          <span className="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out inset-x-0 bottom-0 bg-gradient-to-r from-transparent via-blue-500 to-transparent h-[4px] blur-sm "></span>
         </Link>
 
         <FaBarsStaggered
