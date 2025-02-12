@@ -1,7 +1,7 @@
 .skill__card {
   cursor: default;
   clip-path: var(--polygon);
-  padding: 30px 40px;
+  padding: 15px 40px;
   transition: var(--transition);
 }
 

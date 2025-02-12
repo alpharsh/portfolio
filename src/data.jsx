@@ -19,11 +19,9 @@ import {
   profile5,
   profile6,
   figma,
-  css,
   html,
   javascript,
   tailwind,
-  bootstrap,
   react,
   reactnative,
   emailicon,
@@ -35,6 +33,8 @@ import {
   flutter,
   git,
   github,
+  cpp,
+  python,
 } from "./assets";
 
 export const menu = [
@@ -214,8 +214,8 @@ export const projects = [
         logo: flutter,
       },
       {
-        name: "Bootstrap",
-        logo: bootstrap,
+        name: "C++",
+        logo: cpp,
       },
     ],
   },
@@ -223,13 +223,8 @@ export const projects = [
 
 export const skills = [
   {
-    title: "UI/UX",
+    title: "Tools",
     data: [
-      {
-        skill: "Figma",
-        level: "Experienced",
-        logo: figma,
-      },
       {
         skill: "Git",
         level: "Intermediate",
@@ -240,35 +235,30 @@ export const skills = [
         level: "Intermediate",
         logo: github,
       },
+      {
+        skill: "Figma",
+        level: "Experienced",
+        logo: figma,
+      },
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Technologies",
     data: [
       {
         skill: "HTML",
         level: "Experienced",
         logo: html,
       },
-      {
-        skill: "CSS",
-        level: "Experienced",
-        logo: css,
-      },
+      // {
+      //   skill: "CSS",
+      //   level: "Experienced",
+      //   logo: css,
+      // },
       {
         skill: "JavaScript",
         level: "Experienced",
         logo: javascript,
-      },
-      {
-        skill: "Tailwind",
-        level: "Intermediate",
-        logo: tailwind,
-      },
-      {
-        skill: "Bootstrap",
-        level: "Experienced",
-        logo: bootstrap,
       },
       {
         skill: "React",
@@ -276,10 +266,30 @@ export const skills = [
         logo: react,
       },
       {
-        skill: "Flutter",
+        skill: "Tailwind",
         level: "Experienced",
-        logo: flutter,
+        logo: tailwind,
       },
+      {
+        skill: "C++",
+        level: "Experienced",
+        logo: cpp,
+      },
+      {
+        skill: "NodeJs",
+        level: "Intermediate",
+        logo: nodejs,
+      },
+      {
+        skill: "Python",
+        level: "Intermediate",
+        logo: python,
+      },
+      // {
+      //   skill: "Flutter",
+      //   level: "Experienced",
+      //   logo: flutter,
+      // },
     ],
   },
 ];

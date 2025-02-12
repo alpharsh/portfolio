@@ -23,7 +23,14 @@ const developer = {
 
 function Hero() {
   return (
-    <header id="header">
+    <header
+      id="header"
+      style={{
+        backgroundImage: `radial-gradient(circle at 0.5px 0.5px, rgba(6, 182, 212, 0.2) 0.5px, transparent 0)`,
+        backgroundSize: "8px 8px",
+        backgroundRepeat: "repeat",
+      }} // Dotted background pattern
+    >
       <BreathCircle />
       <div className="section__wrapper">
         <div className="grid upper">

@@ -31,7 +31,7 @@ function About() {
             I am <span className="color__primary">Harsh Tripathi</span>
           </h1>
           <div className="text__muted description">
-            I am a dedicated and versatile software developer with over 3 years
+            I am a dedicated and versatile software developer with over a year
             of experience specializing in full-stack web development and
             creating scalable, user-friendly applications. Proficient in React,
             Node.js, and MongoDB, I have successfully delivered projects,
