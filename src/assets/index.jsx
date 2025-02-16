@@ -12,6 +12,8 @@ export { default as project3 } from "./project-3.png";
 export { default as project4 } from "./project-4.png";
 export { default as project5 } from "./project-5.png";
 export { default as project6 } from "./project-6.jpg";
+export { default as unitedLogo } from "./icons/unitedLogo.jpg";
+export { default as schoolLogo } from "./icons/schoolLogo.jpg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";

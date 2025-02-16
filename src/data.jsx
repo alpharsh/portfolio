@@ -39,6 +39,7 @@ import {
 
 export const menu = [
   { name: "About" },
+  { name: "Education" },
   { name: "Services" },
   { name: "Skill" },
   { name: "Projects" },
