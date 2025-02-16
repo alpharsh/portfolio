@@ -4,7 +4,7 @@ import "./skillcard.css";
 function SkillCard({ title, data }) {
   return (
     <div className="card skill__card">
-      <h3 className="title">
+      <h3 className="title !mb-1 !md:mb-4">
         <span className="g-text">{title}</span>
       </h3>
       <div className="skill__content">

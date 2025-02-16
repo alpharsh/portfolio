@@ -9,7 +9,7 @@ import { schoolLogo, unitedLogo } from "../../assets";
 function Education() {
   return (
     <section id="edu" className=" text-white py-10">
-      <div className="section__wrapper !pl-0 !pr-0">
+      <div className="section__wrapper !pl-0 !pr-0 !overflow-hidden">
         <div className="section__header">
           <h2 className="shine">Education</h2>
         </div>
@@ -17,7 +17,7 @@ function Education() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
-              background: "#1a1a2e",
+              background: "#212121",
               color: "#fff",
               boxShadow: "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
               borderRadius: "20px",
@@ -45,7 +45,7 @@ function Education() {
             iconStyle={{ background: "#0f3460", color: "#fff" }}
             icon={<img src={schoolLogo} alt="School Logo" className="w-full h-full rounded-full" />}
             contentStyle={{
-              background: "#1a1a2e",
+              background: "#212121",
               color: "#fff",
               boxShadow: "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
               borderRadius: "20px",
