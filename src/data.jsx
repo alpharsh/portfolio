@@ -40,6 +40,7 @@ import {
 export const menu = [
   { name: "About" },
   { name: "Education" },
+  { name: "Experience" },
   { name: "Services" },
   { name: "Skill" },
   { name: "Projects" },

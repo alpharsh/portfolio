@@ -14,6 +14,8 @@ export { default as project5 } from "./project-5.png";
 export { default as project6 } from "./project-6.jpg";
 export { default as unitedLogo } from "./icons/unitedLogo.jpg";
 export { default as schoolLogo } from "./icons/schoolLogo.jpg";
+export { default as cbsLogo } from "./icons/cbsLogo.jpg";
+export { default as gdgLogo } from "./icons/gdgLogo.jpg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";

@@ -4,14 +4,14 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { schoolLogo, unitedLogo } from "../../assets";
+import { cbsLogo, gdgLogo } from "../../assets";
 
-function Education() {
+function Experience() {
   return (
-    <section id="education" className=" text-white py-10">
+    <section id="experience" className=" text-white py-10">
       <div className="section__wrapper !pl-0 !pr-0 !overflow-hidden">
         <div className="section__header">
-          <h2 className="shine">Education</h2>
+          <h2 className="shine">Experience</h2>
         </div>
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -19,19 +19,26 @@ function Education() {
             contentStyle={{
               background: "#212121",
               color: "#fff",
-              boxShadow: "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
+              boxShadow:
+                "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
               borderRadius: "20px",
             }}
             contentArrowStyle={{ borderRight: "7px solid  #1a1a2e" }}
-            date="2022 - 2026"
+            date="July 2024 - Present"
             iconStyle={{ background: "#0f3460", color: "#fff" }}
-            icon={<img src={unitedLogo} alt="United Logo" className="w-full h-full rounded-full" />}
+            icon={
+              <img
+                src={cbsLogo}
+                alt="United Logo"
+                className="w-full h-full rounded-full"
+              />
+            }
           >
             <h3 className="text-xl font-semibold text-blue-300">
-              Bachelor's of Technology (CSE)
+              Full-Stack Developer (Intern)
             </h3>
             <h4 className="text-md font-medium text-gray-300">
-              United College of Engineering & Research, Prayagraj
+              Curious Business Solutions, Bengaluru
             </h4>
             <p className="text-gray-400 text-sm mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
@@ -41,21 +48,28 @@ function Education() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2019 - 2021"
+            date="Nov 2023 - Jan 2025"
             iconStyle={{ background: "#0f3460", color: "#fff" }}
-            icon={<img src={schoolLogo} alt="School Logo" className="w-full h-full rounded-full" />}
+            icon={
+              <img
+                src={gdgLogo}
+                alt="School Logo"
+                className="w-full h-full rounded-full"
+              />
+            }
             contentStyle={{
               background: "#212121",
               color: "#fff",
-              boxShadow: "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
+              boxShadow:
+                "var(--border-shadow), 0 0 30px rgba(var(--color-primary-rgb), .03)",
               borderRadius: "20px",
             }}
           >
             <h3 className="text-xl font-semibold text-blue-300">
-              Intermediate, Science
+              Core Team Member
             </h3>
             <h4 className="text-md font-medium text-gray-300">
-              Green Fields Academy, Prayagraj
+              Google Developer Group, Prayagraj
             </h4>
             <p className="text-gray-400 text-sm mt-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
@@ -68,4 +82,4 @@ function Education() {
   );
 }
 
-export default Education;
+export default Experience;
